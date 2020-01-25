@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+header {
+	width: 100%;
+	margin: 0 auto;
+	border-bottom: 1px solid silver;
+	background-color: white;
+}
+.header_container {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	align-items: center;
+}
+.col2 {
+	position: relative;
+}
+button .auth {
+	float: right;
+}
